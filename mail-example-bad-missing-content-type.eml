@@ -1,0 +1,61 @@
+Content-Type: multipart/mixed; boundary="--_NmP-52c9a69970b0535c-Part_1"
+From: my-email-name@gmail.com
+To: my-email-name@gmail.com, my-email-name2@gmail.com
+Subject: Testing...1...2...3
+Message-ID: <a4d06a14-00b9-c567-c044-04be2b4cd546@gmail.com>
+Date: Mon, 18 Dec 2017 14:32:32 +0000
+MIME-Version: 1.0
+
+
+----_NmP-52c9a69970b0535c-Part_1
+Content-Type: multipart/ALTERNATIVE;
+	boundary=--_NmP-52c9a69970b0535c-Part_2
+
+
+----_NmP-52c9a69970b0535c-Part_2
+Content-Transfer-Encoding: 7BIT
+Content-Type: TEXT/PLAIN
+
+Plain text output.
+----_NmP-52c9a69970b0535c-Part_2
+Content-Type: multipart/RELATED;
+	boundary=--_NmP-52c9a69970b0535c-Part_4;
+	type="text/html"
+
+
+----_NmP-52c9a69970b0535c-Part_4
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: TEXT/HTML
+
+
+  <h1>HTML output</h1><h1>CID Inline</h1><img alt=3D"cover image" =
+src=3D"cid:cover">
+  <h1>Embedded inline</h1>
+  <img alt=3D"cover image" =
+src=3D"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDA=
+[Encoded image content] +ihmqHRdmx7/FBds4nYb+YIiD//2Q=3D=3D"> 
+
+----_NmP-52c9a69970b0535c-Part_4
+
+Content-Transfer-Encoding: BASE64
+Content-Disposition: INLINE;
+	filename=cover
+Content-Type: APPLICATION/OCTET-STREAM;
+	name=cover
+Content-Id: <cover>
+
+[encoded image content]
+
+----_NmP-52c9a69970b0535c-Part_4--
+
+----_NmP-52c9a69970b0535c-Part_2--
+
+----_NmP-52c9a69970b0535c-Part_1
+Content-Disposition: ATTACHMENT;
+	filename=cover-py.jpg
+Content-Type: IMAGE/JPEG;
+	name=cover-py.jpg
+Content-Transfer-Encoding: BASE64
+
+[Encoded image content]
+----_NmP-52c9a69970b0535c-Part_1--

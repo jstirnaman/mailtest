@@ -1,5 +1,5 @@
 # Examples of emails with embedded inline and attached images
-* `node index.js` creates and sends test emails.
+* `node mailtest.js` creates and sends test emails.
 * `*.eml` files are raw source examples.
 * Screenshots are example results in Mac OSX mail client.
 

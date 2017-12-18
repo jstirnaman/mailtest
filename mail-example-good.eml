@@ -1,0 +1,54 @@
+Content-Type: multipart/mixed; boundary="--_NmP-79767a0034453d42-Part_1"
+From: my-email-name@gmail.com
+To: my-email-name@gmail.com, my-email-name2@gmail.com
+Subject: Testing...1...2...3
+Message-ID: <f86898fe-7c89-e953-d8d0-bb28357ca2d7@gmail.com>
+Date: Sun, 17 Dec 2017 01:05:50 +0000
+MIME-Version: 1.0
+
+----_NmP-79767a0034453d42-Part_1
+Content-Type: multipart/alternative;
+ boundary="--_NmP-79767a0034453d42-Part_2"
+
+----_NmP-79767a0034453d42-Part_2
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Plain text output.
+----_NmP-79767a0034453d42-Part_2
+Content-Type: multipart/related; type="text/html";
+ boundary="--_NmP-79767a0034453d42-Part_4"
+
+----_NmP-79767a0034453d42-Part_4
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+
+  <h1>HTML output</h1><h1>CID Inline</h1><img alt=3D"cover image" =
+src=3D"cid:cover">
+  <h1>Embedded inline</h1>
+  <img alt=3D"cover image" =
+src=3D"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDA=
+[Encoded image content] +ihmqHRdmx7/FBds4nYb+YIiD//2Q=3D=3D">
+
+----_NmP-79767a0034453d42-Part_4
+Content-Type: image/jpeg; name=cover.jpg
+Content-ID: <cover>
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=cover.jpg
+
+[Encoded image content]
+
+----_NmP-79767a0034453d42-Part_4--
+
+----_NmP-79767a0034453d42-Part_2--
+
+----_NmP-79767a0034453d42-Part_1
+Content-Type: image/jpeg; name=cover-py.jpg
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=cover-py.jpg
+
+[Encoded image content]
+
+----_NmP-79767a0034453d42-Part_1--
+
