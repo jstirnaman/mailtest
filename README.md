@@ -14,3 +14,8 @@ After upgrading to iOS11, the inline related/CID attachment does not display eve
 iOS example with Base64-encoded inline image...
 1. [iOS v. 11, with content-type](mail-ios-content-type-ios11.mov)
 2. [iOS prior to v. 11, without content-type](mail-ios-no-content-type-pre-ios11.mov)
+
+## Gmail web example with Base64-encoded inline images...
+* Displays CID image, renders img data tag as text.
+1. [Gmail, with content-type](Screen_Shot_Gmail_2017-12-18_at_11.48.09_AM.png
+)
